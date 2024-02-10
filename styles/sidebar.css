@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+}
+.sidebar{
+    position: fixed;
+    left:0;
+    width: 320px;
+    height:100%;
+    background: rgb(0, 113, 77);
+    box-shadow: 5px 0px 3px rgba(0, 0, 0, 0.3);
+}
+.sidebar header {
+    font-weight: bold;
+    font-size: 22px;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    line-height: 70px;
+    background: rgb(0, 97, 66);
+    user-select: none;
+}
+.sidebar ul li a{
+    display:block;
+    height: 100%;
+    width:100%;
+    line-height: 50px;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255,255,255,.15);
+}
+.sidebar ul details {
+    display:block;
+    height: 100%;
+    width:100%;
+    line-height: 50px;
+    font-size: 18px;
+    color: white;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255,255,255,.15);
+    transition: max-height 0.15s ease-out;
+  }
+
+  summary{
+    cursor: pointer;
+  }
+
+  summary:hover {
+    background: rgb(0, 92, 65);
+    cursor: pointer;
+  }
+  
+  summary p {
+    font-weight: bold;
+    display:block;
+    height: 100%;
+    width:100%;
+    line-height: 50px;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255,255,255,.15);
+  }
+    
+  details[open] summary {
+    background: rgb(0, 65, 45);
+    transition:0.15s;
+    cursor: pointer;
+  }
+
+  details[open] li {
+    background: rgb(0, 145, 101);
+    transition:0.15s;
+  }
+
+  details[open] a:hover {
+    background: rgb(0, 132, 92);
+    cursor: pointer;
+  }
+
