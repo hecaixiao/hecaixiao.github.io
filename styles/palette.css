@@ -1,0 +1,13 @@
+:root{
+    --sun-background-color:rgb(255, 255, 255);
+    --sun-font-color:rgb(0, 0, 0);
+
+    --moon-background-color:rgb(28, 54, 100);
+    --moon-font-color:rgb(255, 255, 255);
+
+    --feather-background-color:rgb(208, 192, 165);
+    --feather-font-color:rgb(72, 55, 27);
+
+    --tree-background-color:rgb(204, 230, 204);
+    --tree-font-color:rgb(22, 69, 16);
+}

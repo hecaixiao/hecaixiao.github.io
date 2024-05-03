@@ -4,8 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>何采萧的小书架</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="/styles/sidebar.css" />
     <link rel="stylesheet" href="/styles/index.css" />
+    <link rel="stylesheet" href="/styles/general.css" />
+    <link rel="stylesheet" href="/styles/text.css" />
   </head>
   <body>
     <div class="sidebar">
@@ -14,9 +20,11 @@
         <details>
           <summary><p>主页</p></summary>
           <li>
-            <a href="https://hecaixiao.github.io/pages/index">网站介绍</a>
+            <a href="https://hecaixiao.github.io/pages/introduction"
+              >网站介绍</a
+            >
           </li>
-          <li><a href="https://example.com">索引</a></li>
+          <li><a href="https://hecaixiao.github.io/pages/index">索引</a></li>
         </details>
         <details>
           <summary><p>文章1</p></summary>
@@ -43,7 +51,23 @@
       </div>
     </div>
     <div class="content">
-      <p class="index-font">欢迎来到我的书架！</p>
+      <div class="text-font"><p>欢迎来到我的书架！</p></div>
+      <div class="aside-style">
+        <aside>
+          <details class="aside-details">
+            <summary><p>设置</p></summary>
+            <li><a href="https://example.com">第一章</a></li>
+            <li><a href="https://example.com">第二章</a></li>
+            <li><a href="https://example.com">第三章</a></li>
+          </details>
+          <details class="aside-details">
+            <summary><p>快捷方式</p></summary>
+            <li><a href="https://example.com">回到顶部</a></li>
+            <li><a href="https://example.com">上一章</a></li>
+            <li><a href="https://example.com">下一章</a></li>
+          </details>
+        </aside>
+      </div>
     </div>
   </body>
 </html>
